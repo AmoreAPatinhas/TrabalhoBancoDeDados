@@ -5,11 +5,11 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Isabella Bissoli: <email>
-Isabella Sampaio: <email>
-Ludmila Dias: ludmiladias.inf@gmail.com
-Marcela Starling: <email>
-Renzo Avance: <email>
+Isabella Bissoli: <email> <br>
+Isabella Sampaio: <email><br>
+Ludmila Dias: ludmiladias.inf@gmail.com<br>
+Marcela Starling: <email><br>
+Renzo Avance: <email><br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
