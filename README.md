@@ -7,7 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Isabella Bissoli: <email> <br>
 Isabella Sampaio: <email><br>
-Ludmila Dias: ludmiladias.inf@gmail.com
+Ludmila Dias: ludmiladias.inf@gmail.com <br>
 Marcela Starling: marcela.sfl@hotmail.com <br>
 Renzo Avance: <email><br>
 
