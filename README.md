@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Isabella Bissoli: <email> <br>
 Isabella Sampaio: <email><br>
 Ludmila Dias: ludmiladias.inf@gmail.com
-Marcela Starling: marcela.sfl@hotmail.com
+Marcela Starling: marcela.sfl@hotmail.com <br>
 Renzo Avance: <email><br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
