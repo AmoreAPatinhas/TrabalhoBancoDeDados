@@ -7,8 +7,8 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Isabella Bissoli: <email> <br>
 Isabella Sampaio: <email><br>
-Ludmila Dias: ludmiladias.inf@gmail.com<br>
-Marcela Starling: <email><br>
+Ludmila Dias: ludmiladias.inf@gmail.com
+Marcela Starling: marcela.sfl@hotmail.com
 Renzo Avance: <email><br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
@@ -20,13 +20,15 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+É de extrema importância ter um sistema eficiente de controle para auxiliar os voluntários no gerenciamento das atividades internas e na vida dos animais. O abrigo Amor&Patinhas atua não apenas como um lar temporário para esses animais, mas também como uma porta de entrada para que eles encontrem famílias amorosas e tenham uma segunda chance na vida. Todo animal ao chegar no abrigo, necessita que um administrador o cadastre com algumas informações básicas para ser identificado, como a raça, nome, idade, data que chegou ao abrigo, cor e espécie (as espécies dos animais devem ser diferenciadas através de códigos)
+A espécie do animal se distingue por Gato ou Cachorro. Já a raça, informa a família do animal (exemplo: vira-lata, siamês, golden retriever...)
+ 
+Do sistema espera-se que seja possível que o administrador cadastre também os voluntários que tenham interesse para ajudar nas atividades do abrigo e no cuidado dos animais. Ao demonstrar interesse, esse voluntário se torna um funcionário do abrigo e pode contribuir de várias formas, caso tenha alguma formação na área animal (como um veterinário), poderá auxiliar em consultas, aplicação e dosagem de remédios. Caso não tenha, é alocado para manutenções gerais, limpeza, alimentação e banho. Deve ser possível inserir os dados dos funcionários do abrigo, colocando nome, cpf, telefone, email, endereço e ocupação (onde irá atuar no abrigo, qual tarefa…) para que assim seja possível controlar a entrada e saída de pessoas no abrigo e sua atuação.
+Todos os funcionários devem estar vinculados a pelo menos um animal ou vários. O animal pode estar relacionado a um ou vários funcionários, pois pode existir a necessidade de ter um veterinário supervisionando e outro funcionário dando banho e comida. 
+O sistema deve possibilitar que o administrador ou o voluntário gere uma ficha, ou histórico, do animal (caso requisitado pelo usuário), contendo todas as informações que foram cadastradas do mesmo, para facilidade de visualização e controle
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+O sistema de adoção funciona da seguinte forma: Um interessado demonstra o interesse a um animal ou vários e é exibido na listagem de interesses para que ele passe por toda uma avaliação (se está adapto a receber seu novo amigo em sua residência). E caso seja o escolhido, o administrador poderá vincular o interessado ao animal, confirmando o processo de adoção. Para controle, antes do vincular ocorrer, um cadastro do adotante deve ser feito no sistema com as informações: Nome, telefone, CPF, email e endereço.
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
