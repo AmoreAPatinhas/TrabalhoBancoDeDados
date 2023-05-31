@@ -65,7 +65,7 @@ Relacionamentos Principais:
 
 > Adota (Interessado/Animal):
 1) Um interessado adota um animal ou vários
-2) Um animal pode ser adotado por apenas um interessado ou por ninguém
+2) Um animal pode ser adotado por apenas um adotante ou por ninguém
 
 
 > Realiza (Necessitado/Castração):
