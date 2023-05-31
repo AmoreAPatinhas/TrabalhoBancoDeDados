@@ -51,8 +51,6 @@ O sistema de adoção funciona da seguinte forma: Um interessado demonstra o int
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO
 
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > O sistema Amor&Patinhas fornecerá aos funcionários e administradores os seguintes relatórios:
 * Relatório que informe para o administrador os funcionários que ajudam ativamente no abrigo com as seguintes informações: nome, cpf, telefone, email e ocupação.
@@ -68,7 +66,6 @@ O sistema de adoção funciona da seguinte forma: Um interessado demonstra o int
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
     
 >## Marco de Entrega 01 em:<br>
 
