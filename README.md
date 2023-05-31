@@ -30,10 +30,7 @@ O sistema de adoção funciona da seguinte forma: Um interessado demonstra o int
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
@@ -58,11 +55,42 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
-        
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+
+
+Relacionamentos:
+
+> Cuida (Funcionários/Animal):
+1) Um funcionário cuida de um ou vários animais
+2) Um animal é cuidado por um ou vários funcionários
+
+> Possui (Animal/Espécie):
+1) Um animal possui apenas uma espécie
+2) Um código de espécie pertence a um ou vários animais
+
+> Adota (Interessado/Animal):
+1) Um interessado adota um animal ou vários
+2) Um animal pode ser adotado por apenas um interessado ou por ninguém
+
+> Contém (Interessado/Endereço):
+1) Um interessado contém um único endereço
+2) Um endereço contém (pode ser ligado) a um interessado ou vários
+
+> Contém (Funcionário/Endereço):
+1) Um funcionário contém um único endereço
+2) Um endereço contém (pode ser ligado) a um funcionário ou vários
+ 
+> Realiza (Necessitado/Castração):
+1) Um necessitado realiza nenhuma ou apenas uma castração
+2) Um código de castração está ligado (pode ser ligado) a um animal necessitado 
+
+> Realiza (Necessitado/Vacinação):
+1) Um necessitado realiza nenhuma ou várias vacinação
+2) Um código de vacina pode estar atrelado a um necessitado
+
+> Precisa (Necessitado/Remédio):
+1) Um necessitado precisa de nenhum ou vários remédios
+2) Um código de remédio pode estar ligado a nenhum necessitado ou vários
+
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
@@ -73,16 +101,19 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
+![modelo_Conceitual_certo](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/b6497d85-42cb-4250-a0ff-17aa27bcc35d)
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+
+A) FUNCIONÁRIO: Identificação das informações do funcionário voluntário do abrigo para segurança e organização
+B) ANIMAL: Identificação das informações de cada animal que chega no abrigo para controle da quantidade e de cad aum individualmente
+C) ESPÉCIE: Identifica se o animal que chegou é Cachorro ou Gato
+D) ENDEREÇO: Serve para identificarmos o endereço do funcionário e do adotante para segurança do abrigo
+E) ADOTANTE: código do adotante, nome do adotante, cpf, email, endereço
+F) ANIMAL ADOTANTE: código a adoção, código do adotante, código do animal, data da adoção
+G) PROCEDIMENTO: código do procedimento, código do animal, descrição e data
+H) TIPO DE TRATAMENTO: código de tratamento e descrição
 
 >## Marco de Entrega 02 em: (30/04/2019)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
