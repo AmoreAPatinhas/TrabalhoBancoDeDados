@@ -54,49 +54,27 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 >## Marco de Entrega 01 em:<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
 
+Principais entidades: Animal, Funcionário e Adotante
 
-Relacionamentos:
+Relacionamentos Principais:
 
 > Cuida (Funcionários/Animal):
 1) Um funcionário cuida de um ou vários animais
 2) Um animal é cuidado por um ou vários funcionários
 
-> Possui (Animal/Espécie):
-1) Um animal possui apenas uma espécie
-2) Um código de espécie pertence a um ou vários animais
-
 > Adota (Interessado/Animal):
 1) Um interessado adota um animal ou vários
 2) Um animal pode ser adotado por apenas um interessado ou por ninguém
 
-> Contém (Interessado/Endereço):
-1) Um interessado contém um único endereço
-2) Um endereço contém (pode ser ligado) a um interessado ou vários
 
-> Contém (Funcionário/Endereço):
-1) Um funcionário contém um único endereço
-2) Um endereço contém (pode ser ligado) a um funcionário ou vários
- 
 > Realiza (Necessitado/Castração):
 1) Um necessitado realiza nenhuma ou apenas uma castração
 2) Um código de castração está ligado (pode ser ligado) a um animal necessitado 
 
-> Realiza (Necessitado/Vacinação):
-1) Um necessitado realiza nenhuma ou várias vacinação
-2) Um código de vacina pode estar atrelado a um necessitado
-
-> Precisa (Necessitado/Remédio):
-1) Um necessitado precisa de nenhum ou vários remédios
-2) Um código de remédio pode estar ligado a nenhum necessitado ou vários
-
+![MODELO CONCEITUAL CERTO](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/cfb22bd0-dae1-4c19-b728-b1ea92bad290)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
     
         
     
