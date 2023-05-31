@@ -1,4 +1,4 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01: Amor&Patinhas
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
@@ -28,19 +28,38 @@ O sistema de adoção funciona da seguinte forma: Um interessado demonstra o int
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+ > Menu e login
+
+![Captura de tela 2023-05-31 102636](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/3c345d7a-b359-4c93-9806-3d53029db0bf)
+
+> Menu principal e Edição de dados
+
+![Captura de tela 2023-05-31 102707](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/3b2eb39c-4632-43a9-94d4-135a52772688)
+
+> Informações do animal e dados médicos de cada
+
+![Captura de tela 2023-05-31 102743](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/22398020-9125-4c7a-b781-c95fb1e93d0d)
+ 
+> Cronograma de tratamentos e agendamentos
+
+![Captura de tela 2023-05-31 102810](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/cc5b94c9-dee6-42ec-bb6d-1378a3dfd9ad)
+
+> Cadastrar animal e voluntário
+
+![Captura de tela 2023-05-31 102926](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/016d7c83-162f-4257-b317-8391200cf82c)
 
 
-#### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+#### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO
+
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> O sistema Amor&Patinhas fornecerá aos funcionários e administradores os seguintes relatórios:
+* Relatório que informe para o administrador os funcionários que ajudam ativamente no abrigo com as seguintes informações: nome, cpf, telefone, email e ocupação.
+* Relatório que informe sobre os animais que chegaram ao abrigo e foram recebidos pelos funcionários. Deve retornar as seguintes informações: nome do animal, espécie, raça, data da chegada, pelagem e o funcionário que está relacionado a ele (Caso não exista, exibe vazio).
+* Relatório do cronograma de tratamentos, que exibe por animal, quais tratamentos foram feitos nele e se existe algum agendamento futuro marcado. As informações exibidas serão: Nome do animal, espécie, tipo de tratamento, descrição do tratamento e a data e hora (tanto como tratamento já feitos e futuros)
+* Relatório com o registros dos adotantes para supervisão (saber onde o animal está e com quem): Nome do adotante, nome do animal, endereço, telefone, cpf e email
+* Relatório  de espécie para exibir se o animal é um cachorro ou gato e o seu nome: nome e espécie
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
@@ -79,18 +98,29 @@ Relacionamentos Principais:
         
     
 #### 5.1 Validação do Modelo Conceitual
-![modelo_Conceitual_certo](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/b6497d85-42cb-4250-a0ff-17aa27bcc35d)
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Richard, Kailany e Lucas
+    Observação do Grupo01:
 
+    
+    [Grupo02]: Eduardo, Lucas e Vitor
+    Observação do Grupo02:
+    
 #### 5.2 DECISÕES DE PROJETO
 
 A) FUNCIONÁRIO: Identificação das informações do funcionário voluntário do abrigo para segurança e organização
+
 B) ANIMAL: Identificação das informações de cada animal que chega no abrigo para controle da quantidade e de cad aum individualmente
+
 C) ESPÉCIE: Identifica se o animal que chegou é Cachorro ou Gato
+
 D) ENDEREÇO: Serve para identificarmos o endereço do funcionário e do adotante para segurança do abrigo
+
 E) ADOTANTE: código do adotante, nome do adotante, cpf, email, endereço
+
 F) ANIMAL ADOTANTE: código a adoção, código do adotante, código do animal, data da adoção
+
 G) PROCEDIMENTO: código do procedimento, código do animal, descrição e data
+
 H) TIPO DE TRATAMENTO: código de tratamento e descrição
 
 >## Marco de Entrega 02 em: (30/04/2019)<br>
