@@ -133,6 +133,7 @@ H) TIPO DE TRATAMENTO: código de tratamento e descrição
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+![modelo logico](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/130158423/be605034-fd7c-4711-becd-6e3a3f547e57)
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
@@ -140,7 +141,7 @@ H) TIPO DE TRATAMENTO: código de tratamento e descrição
 ![captura 1](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/7136e165-03cb-4dff-b33c-987642916aa0)
 ![captura 2](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/c350941f-e01a-42e3-aca9-cc621ec2ab98)
  #### SELECT:
- ![select table](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/54d29592-6073-4cd9-904e-9f0cb4a8982f)
+![select table](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/54d29592-6073-4cd9-904e-9f0cb4a8982f)
         
 >## Marco de Entrega 03 em: (06/05/2019)<br>
         
