@@ -137,6 +137,8 @@ H) TIPO DE TRATAMENTO: código de tratamento e descrição
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..) 
+![captura 1](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/7136e165-03cb-4dff-b33c-987642916aa0)
+![captura 2](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/c350941f-e01a-42e3-aca9-cc621ec2ab98)
         
 >## Marco de Entrega 03 em: (06/05/2019)<br>
         
