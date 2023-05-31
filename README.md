@@ -5,11 +5,11 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Isabella Bissoli: <email> <br>
+Isabella Bissoli: <isabellabg244@gmail.com><br>
 Isabella Sampaio: <email><br>
 Ludmila Dias: ludmiladias.inf@gmail.com <br>
 Marcela Starling: marcela.sfl@hotmail.com <br>
-Renzo Avance: <email><br>
+Renzo Avance: <renzogavance@gmail.com><br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
