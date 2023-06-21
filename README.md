@@ -198,7 +198,7 @@ CREATE TABLE PESSOA (
     FK_ENDERECO_id_endereco integer
 );
 
-CREATE TABLE Procedimento (
+CREATE TABLE PROCEDIMENTO (
     fk_ANIMAL_id_animal integer,
     fk_TIPO_TRATAMENTO_id_tratamento integer,
     descricao string,
