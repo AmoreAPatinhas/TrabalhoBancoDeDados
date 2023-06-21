@@ -142,71 +142,7 @@ H) TIPO DE TRATAMENTO: código de tratamento e descrição
         (criação de tabelas, alterações, etc..) 
         /* ModeloLogico_PatinhaseAmor: */
 
-CREATE TABLE ESPECIE (
-    id_especie integer PRIMARY KEY,
-    tipo_especie string,
-    id_animal integer
-);
 
-CREATE TABLE ANIMAL (
-    id_animal integer PRIMARY KEY,
-    nome string,
-    data_chegada date,
-    id_especie integer,
-    porte string,
-    FK_PESSOA_id_pessoa integer,
-    id_raca integer,
-    id_pelagem integer
-);
-
-CREATE TABLE TIPO_TRATAMENTO (
-    descricao string,
-    id_tratamento integer PRIMARY KEY
-);
-
-CREATE TABLE FUNCIONARIO (
-    ocupacao string,
-    FK_PESSOA_id_pessoa integer
-);
-
-CREATE TABLE ENDERECO (
-    nome_rua string,
-    id_endereco integer PRIMARY KEY,
-    bairro string,
-    cep integer,
-    numero integer,
-    id_pessoa integer
-);
-
-CREATE TABLE RACA (
-    nome_raca string,
-    id_raca integer PRIMARY KEY,
-    id_especie integer
-);
-
-CREATE TABLE PELAGEM (
-    tipo_pelagem string,
-    id_pelagem integer PRIMARY KEY
-);
-
-CREATE TABLE PESSOA (
-    id_pessoa integer PRIMARY KEY,
-    nome_pessoa string,
-    telefone integer,
-    cpf integer,
-    email string,
-    id_animal string,
-    FK_ENDERECO_id_endereco integer
-);
-
-CREATE TABLE PROCEDIMENTO (
-    fk_ANIMAL_id_animal integer,
-    fk_TIPO_TRATAMENTO_id_tratamento integer,
-    descricao string,
-    data_hora date,
-    id_animal integer,
-    id_tratamento integer
-);
  
 ![captura 1](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/7136e165-03cb-4dff-b33c-987642916aa0)
 ![captura 2](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/c350941f-e01a-42e3-aca9-cc621ec2ab98)
