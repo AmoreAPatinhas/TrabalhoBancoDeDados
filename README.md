@@ -133,7 +133,8 @@ H) TIPO DE TRATAMENTO: código de tratamento e descrição
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
-![modelocerto!](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/7758d865-c38e-465d-9beb-19dd438503f9)
+![modelocerto!](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/ab6cbe5e-9ee5-4256-9e54-6152a3a95c14)
+
 
 
 ### 7	MODELO FÍSICO<br>
