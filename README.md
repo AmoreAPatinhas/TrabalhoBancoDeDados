@@ -133,11 +133,80 @@ H) TIPO DE TRATAMENTO: código de tratamento e descrição
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
-![modelo logico](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/130158423/be605034-fd7c-4711-becd-6e3a3f547e57)
+![modelocerto!](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/95357142/7758d865-c38e-465d-9beb-19dd438503f9)
+
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..) 
+        /* ModeloLogico_PatinhaseAmor: */
+
+CREATE TABLE ESPECIE (
+    id_especie integer PRIMARY KEY,
+    tipo_especie string,
+    id_animal integer
+);
+
+CREATE TABLE ANIMAL (
+    id_animal integer PRIMARY KEY,
+    nome string,
+    data_chegada date,
+    id_especie integer,
+    porte string,
+    FK_PESSOA_id_pessoa integer,
+    id_raca integer,
+    id_pelagem integer
+);
+
+CREATE TABLE TIPO_TRATAMENTO (
+    descricao string,
+    id_tratamento integer PRIMARY KEY
+);
+
+CREATE TABLE FUNCIONARIO (
+    ocupacao string,
+    FK_PESSOA_id_pessoa integer
+);
+
+CREATE TABLE ENDERECO (
+    nome_rua string,
+    id_endereco integer PRIMARY KEY,
+    bairro string,
+    cep integer,
+    numero integer,
+    id_pessoa integer
+);
+
+CREATE TABLE RACA (
+    nome_raca string,
+    id_raca integer PRIMARY KEY,
+    id_especie integer
+);
+
+CREATE TABLE PELAGEM (
+    tipo_pelagem string,
+    id_pelagem integer PRIMARY KEY
+);
+
+CREATE TABLE PESSOA (
+    id_pessoa integer PRIMARY KEY,
+    nome_pessoa string,
+    telefone integer,
+    cpf integer,
+    email string,
+    id_animal string,
+    FK_ENDERECO_id_endereco integer
+);
+
+CREATE TABLE Procedimento (
+    fk_ANIMAL_id_animal integer,
+    fk_TIPO_TRATAMENTO_id_tratamento integer,
+    descricao string,
+    data_hora date,
+    id_animal integer,
+    id_tratamento integer
+);
+ 
 ![captura 1](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/7136e165-03cb-4dff-b33c-987642916aa0)
 ![captura 2](https://github.com/AmoreAPatinhas/TrabalhoBancoDeDados/assets/78965606/c350941f-e01a-42e3-aca9-cc621ec2ab98)
  #### SELECT:
